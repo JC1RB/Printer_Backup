@@ -156,3 +156,26 @@ Properties:
 **FragmentPath=/etc/systemd/system/klipper.service
 Klipper Version: v0.11.0-55-g448c1a14
 2023-01-26 12:11:09,541 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.50.181
+2023-01-26 13:12:05,510 [machine.py:_find_public_ip()] - Failed to detect local IP address
+2023-01-26 13:12:05,512 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
+2023-01-26 13:12:14,872 [websockets.py:write_to_socket()] - Websocket closed while writing: 1741093520
+2023-01-26 13:12:15,518 [machine.py:_find_public_ip()] - Failed to detect local IP address
+2023-01-26 13:12:19,803 [websockets.py:on_close()] - Websocket Closed: ID: 1741093520 Close Code: None, Close Reason: None, Pong Time Elapsed: 40.80
+2023-01-26 13:12:22,071 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.50.181
+2023-01-26 13:12:22,074 [app.py:log_request()] - 101 GET /websocket (192.168.50.181) [_TRUSTED_USER_] 6.24ms
+2023-01-26 13:12:22,075 [websockets.py:open()] - Websocket Opened: ID: 1749867416, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 OPR/93.0.0.0, Host Name: 192.168.50.172
+2023-01-26 13:12:22,107 [websockets.py:_handle_identify()] - Websocket 1749867416 Client Identified - Name: mainsail, Version: 2.4.1, Type: web
+2023-01-26 13:12:25,532 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.50.172
+2023-01-26 13:12:25,536 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.50.172
+2023-01-26 14:16:09,566 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.50.181
+2023-01-26 14:52:43,044 [machine.py:_find_public_ip()] - Failed to detect local IP address
+2023-01-26 14:52:43,046 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
+2023-01-26 14:53:02,138 [websockets.py:write_to_socket()] - Websocket closed while writing: 1749867416
+2023-01-26 14:53:03,065 [machine.py:_find_public_ip()] - Failed to detect local IP address
+2023-01-26 14:53:07,078 [websockets.py:on_close()] - Websocket Closed: ID: 1749867416 Close Code: None, Close Reason: None, Pong Time Elapsed: 42.73
+2023-01-26 14:53:08,688 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.50.181
+2023-01-26 14:53:08,695 [app.py:log_request()] - 101 GET /websocket (192.168.50.181) [_TRUSTED_USER_] 10.84ms
+2023-01-26 14:53:08,696 [websockets.py:open()] - Websocket Opened: ID: 1749900568, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 OPR/93.0.0.0, Host Name: 192.168.50.172
+2023-01-26 14:53:08,699 [websockets.py:_handle_identify()] - Websocket 1749900568 Client Identified - Name: mainsail, Version: 2.4.1, Type: web
+2023-01-26 14:53:13,079 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.50.172
+2023-01-26 14:53:13,082 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.50.172
